@@ -1,0 +1,14 @@
+name = "four_cards"
+version = "0.1.0"
+defaultTargets = ["four_cards", "simulate"]
+
+[[lean_lib]]
+name = "FourCards"
+
+[[lean_exe]]
+name = "four_cards"
+root = "Main"
+
+[[lean_exe]]
+name = "simulate"
+root = "Simulate"
